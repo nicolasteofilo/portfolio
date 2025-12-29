@@ -1,58 +1,6 @@
 {
-  "books": [
-    {
-      "id": "clean-code",
-      "title": "Clean Code",
-      "imageUrl": "/about-me/my-books/clean-code.jpg",
-      "width": 165,
-      "height": 201,
-      "backCoverColor": "bg-[#1F2937]",
-      "className": "select-none w-fit h-fit relative col-start-3 row-start-1 rotate-[14deg] top-[180px] left-[240px] [perspective:600px]",
-      "stagger": 17
-    },
-    {
-      "id": "harry-potter",
-      "title": "Harry Potter",
-      "imageUrl": "/about-me/my-books/harry-potter.jpg",
-      "width": 143,
-      "height": 198,
-      "backCoverColor": "bg-[#7C2D12]",
-      "className": "select-none w-fit h-fit relative col-start-2 row-start-4 rotate-[6deg] [perspective:600px]",
-      "stagger": 21
-    },
-    {
-      "id": "1984",
-      "title": "1984",
-      "imageUrl": "/about-me/my-books/1984.jpg",
-      "width": 136,
-      "height": 199,
-      "backCoverColor": "bg-[#111827]",
-      "className": "select-none w-fit h-fit relative col-start-7 row-start-4 rotate-[18deg] left-[120px] [perspective:600px]",
-      "stagger": 9
-    }
-  ],
-  "albums": [
-    {
-      "id": "mockingbird",
-      "albumCover": "/about-me/album_covers/mockbird.jpg",
-      "albumTitle": "Mockingbird",
-      "artist": "Eminem",
-      "musicFile": "/about-me/songs/mocking_bird.mp3",
-      "size": "md",
-      "className": "select-none w-fit h-fit relative col-start-6 row-start-3 rotate-[6deg] left-[80px] bottom-[60px]",
-      "stagger": 37
-    },
-    {
-      "id": "stan",
-      "albumCover": "/about-me/album_covers/stan.jpeg",
-      "albumTitle": "Stan",
-      "artist": "Eminem",
-      "musicFile": "/about-me/songs/stan.mp3",
-      "size": "md",
-      "className": "select-none w-fit h-fit relative col-start-4 row-start-6 rotate-[-6deg] right-[120px] bottom-[40px]",
-      "stagger": 38
-    }
-  ],
+  "books": [],
+  "albums": [],
   "education": [
     {
       "id": "high-school",
@@ -63,51 +11,5 @@
       "icon": "/education-icons/adventist.png"
     }
   ],
-  "stickers": [
-    {
-      "id": "linux",
-      "src": "/about-me/stickers/linux.png",
-      "alt": "Linux sticker",
-      "width": 160,
-      "height": 159,
-      "className": "shadow-lg select-none relative col-start-7 row-start-1 right-[60px] rotate-[9deg] left-[400px]",
-      "stagger": 10
-    },
-    {
-      "id": "postgresql",
-      "src": "/about-me/stickers/postgresql.png",
-      "alt": "PostgreSQL sticker",
-      "width": 98,
-      "height": 160,
-      "className": "select-none pointer-events-none relative col-start-3 row-start-6 bottom-[140px] right-[240px] rotate-[36deg]",
-      "stagger": 11
-    },
-    {
-      "id": "redis",
-      "src": "/about-me/stickers/redis.png",
-      "alt": "Redis sticker",
-      "width": 92,
-      "height": 80,
-      "className": "pointer-events-none select-none relative col-start-4 row-start-5 right-[200px] top-[200px]",
-      "stagger": 8
-    },
-    {
-      "id": "react",
-      "src": "/about-me/stickers/react.png",
-      "alt": "React sticker",
-      "width": 160,
-      "height": 142,
-      "className": "select-none pointer-events-none relative col-start-7 row-start-6 top-[200px] right-[160px]",
-      "stagger": 16
-    },
-    {
-      "id": "nextjs",
-      "src": "/about-me/stickers/next-js.png",
-      "alt": "Next.js sticker",
-      "width": 321,
-      "height": 86,
-      "className": "rotate-[10deg] pointer-events-none select-none relative col-start-8 row-start-6 right-[240px]",
-      "stagger": 14
-    }
-  ]
+  "stickers": []
 }

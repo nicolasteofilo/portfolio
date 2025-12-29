@@ -36,18 +36,18 @@ export default function Home() {
   }
 
   return (
-    <main className="flex flex-col max-w-3xl mx-auto gap-12 sm:gap-16 p-8 sm:pt-16 pb-28">
+    <main className="flex flex-col max-w-3xl mx-auto gap-4 sm:gap-8 bg-background p-6 pb-24 sm:pt-16 sm:pb-28 sm:px-4">
 
-      <section className="flex flex-col gap-10 w-full" style={{ "--stagger": 2 } as React.CSSProperties}>
+      <section className="flex flex-col gap-8 w-full" style={{ "--stagger": 2 } as React.CSSProperties}>
 
         <div className="flex justify-between place-items-center ">
-          <h2> Projects </h2>
+          <h2 className="text-lg font-medium">Projects</h2>
         </div>
 
         {projects.map((project) => (
           <ScrollScaleElement
             key={project.id}
-            className="flex flex-col gap-4 w-full rounded-xl border border-border/50 bg-muted/40 p-4 sm:p-5"
+            className="flex flex-col gap-4 w-full rounded-xl border border-border/50 bg-muted/40 p-4 sm:p-6"
           >
             {project.image?.src && (
               <Link className="flex flex-col gap-2" href={project.detailPath}>
@@ -68,7 +68,7 @@ export default function Home() {
                   className="w-fit inline-flex rounded-md text-base ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 hover:text-accent-foreground"
                   href={project.detailPath}
                 >
-                  <h3 className="text-lg">{project.title}</h3>
+                  <h3 className="text-base font-medium">{project.title}</h3>
                 </Link>
                 <div className="text-base leading-relaxed text-muted-foreground space-y-2">
                   {project.Description ? (
