@@ -1,0 +1,41 @@
+{
+  "projects": [
+    {
+      "id": "surveyhub-api",
+      "title": "SurveyHub API",
+      "descriptionMdx": "surveyhub-api",
+      "detailPath": "/projects/surveyhub-api",
+      "technologies": [
+        {
+          "id": "node",
+          "name": "Node.js",
+          "icon": "/tech/nodejs.svg"
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "icon": "/tech/typescript.svg"
+        },
+        {
+          "id": "mongodb",
+          "name": "MongoDB",
+          "icon": "/tech/mongodb.svg"
+        },
+        {
+          "id": "jest",
+          "name": "Jest",
+          "icon": "/tech/jest.svg"
+        },
+        {
+          "id": "docker",
+          "name": "Docker",
+          "icon": "/tech/docker.svg"
+        }
+      ],
+      "links": {
+        "github": "https://github.com/nicolasteofilo/surveyhub-api",
+        "live": ""
+      }
+    }
+  ]
+}

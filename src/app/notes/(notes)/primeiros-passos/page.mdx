@@ -1,0 +1,27 @@
+export const noteMeta = {
+  title: "Primeiros passos com APIs Node.js",
+  description: "Anotacoes iniciais sobre arquitetura de API e boas praticas de back-end.",
+  date: "2025-02-12",
+  language: "Portuguese",
+};
+
+export const metadata = {
+  title: noteMeta.title,
+  description: noteMeta.description,
+};
+
+# Primeiros passos com APIs Node.js
+
+Quando estou comecando uma nova API, o foco e manter **estrutura**, **testes** e **observabilidade** desde o inicio.
+
+## O que eu priorizo
+
+- Camadas bem definidas (handlers, services e repos).
+- Validacao de entrada antes de qualquer acesso a banco.
+- Logs uteis para entender o comportamento em producao.
+
+## Checklist rapido
+
+1. Definir contratos de entrada/saida.
+2. Escrever testes de unidade para regras criticas.
+3. Medir latencia e erros desde o primeiro deploy.
