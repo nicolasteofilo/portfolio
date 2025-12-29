@@ -10,11 +10,11 @@ const notesContext = require.context("../app/notes/(notes)", true, /page\.mdx$/)
 
 const rawNotes = notesContext.keys().map((key: string) => {
   const slug = key.replace("./", "").replace("/page.mdx", "");
-  const module = notesContext(key) as {
+  const noteModule = notesContext(key) as {
     noteMeta?: Omit<NoteMeta, "slug">;
   };
 
-  return module.noteMeta ? { ...module.noteMeta, slug } : null;
+  return noteModule.noteMeta ? { ...noteModule.noteMeta, slug } : null;
 });
 
 export const notes = rawNotes
